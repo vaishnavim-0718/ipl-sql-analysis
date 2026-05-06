@@ -16,3 +16,8 @@ Analyzed IPL dataset using SQL to extract insights about players and teams.
 SELECT batsman, SUM(runs)
 FROM deliveries
 GROUP BY batsman;
+
+## Key Insights
+- Mumbai Indians has highest win percentage
+- Top batsman based on total runs scored
+- Teams winning more while chasing
